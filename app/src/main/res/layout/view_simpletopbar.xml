@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/leftbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#f99"
+        android:text="左按钮"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="标题"
+        android:textColor="#00a6ff"
+        android:background="#D673F2A4"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/rightbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#f99"
+        android:text="右按钮"
+        android:textColor="#fff" />
+</LinearLayout>

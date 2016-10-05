@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:imac="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+    <com.example.lmhgfkk.ui_customattr.view.TopBar
+
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+
+
+        imac:leftText="左按钮"
+        imac:leftTextColor="#fff"
+        imac:leftBackground="#f99"
+
+        imac:rightText="右按钮"
+        imac:rightTextColor="#fff"
+        imac:rightBackground="#f99"
+
+        imac:titleText="标题"
+        imac:titleTextColor="#00a6ff"
+        imac:titleTextSize="15dp"
+        />
+</RelativeLayout>
